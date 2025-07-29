@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios, { AxiosResponse } from 'axios';
 
 const API_BASE_URL = 'http://localhost:4000';
 
@@ -35,4 +35,10 @@ export const updateTodo = async (
 // Delete a todos
 export const deleteTodo = async (id: number): Promise<void> => {
   await axios.delete(`${API_BASE_URL}/todo/delete/${id}`);
+};
+
+// Reusable register (or any POST) API function
+export const registerApi = async <T, D = unknown>(data: D): Promise<T> => {
+  const response: AxiosResponse<T> = await axios.post(`${API_BASE_URL}/register`, data);
+  return response.data;
 };

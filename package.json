@@ -9,16 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@hookform/resolvers": "^5.2.0",
     "@mantine/core": "^8.2.1",
     "@mantine/hooks": "^8.2.1",
+=======
+>>>>>>> 9279dc5d4cf113d555ed04c7db6900626ac60149
     "axios": "^1.11.0",
     "next": "^15.3.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+<<<<<<< HEAD
     "react-hook-form": "^7.61.1",
     "react-toastify": "^11.0.5",
     "zod": "^3.25.76"
+=======
+    "react-toastify": "^11.0.5"
+>>>>>>> 9279dc5d4cf113d555ed04c7db6900626ac60149
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -28,9 +35,12 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
+<<<<<<< HEAD
     "postcss": "^8.5.6",
     "postcss-preset-mantine": "^1.18.0",
     "postcss-simple-vars": "^7.0.1",
+=======
+>>>>>>> 9279dc5d4cf113d555ed04c7db6900626ac60149
     "tailwindcss": "^4",
     "typescript": "^5"
   },
